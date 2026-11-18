@@ -8,11 +8,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          unzip -o gta6encyclopedia-site.zip
-          rm gta6encyclopedia-site.zip
+          shopt -s nullglob
+          zips=(*.zip)
+          if [ ${#zips[@]} -eq 0 ]; then echo "No hay ningún .zip en la raíz"; exit 1; fi
+          for z in "${zips[@]}"; do unzip -o "$z"; rm "$z"; done
           rm -f assets/leeme
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -A
-          git commit -m "Subir sitio completo"
+          git commit -m "Subir sitio completo" || echo "Sin cambios"
           git push
