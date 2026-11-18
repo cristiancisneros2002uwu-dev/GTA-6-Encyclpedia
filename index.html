@@ -4,15 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GTA 6 Encyclopedia: guías, trucos, misiones, mapa y más</title>
-<meta name="description" content="GTA 6 Encyclopedia: enciclopedia independiente en español de Grand Theft Auto VI con personajes, mapa de Leonida, vehículos, armas, misiones, trucos y noticias, con cada dato verificado.">
+<meta name="description" content="GTA 6 Encyclopedia: enciclopedia independiente en español de Grand Theft Auto VI con personajes, mapa de Leonida, vehículos, armas, misiones, trucos y noticias, con cada dato etiquetado según su nivel de confirmación.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://gta6encyclopedia.com/">
 <link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/">
 <link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/">
 <link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/">
 <meta property="og:type" content="website"><meta property="og:site_name" content="GTA 6 Encyclopedia">
-<meta property="og:title" content="GTA 6 Encyclopedia: guías, trucos, misiones, mapa y más"><meta property="og:description" content="GTA 6 Encyclopedia: enciclopedia independiente en español de Grand Theft Auto VI con personajes, mapa de Leonida, vehículos, armas, misiones, trucos y noticias, con cada dato verificado."><meta property="og:url" content="https://gta6encyclopedia.com/"><meta property="og:locale" content="es_ES">
-<meta name="twitter:card" content="summary">
+<meta property="og:title" content="GTA 6 Encyclopedia: guías, trucos, misiones, mapa y más"><meta property="og:description" content="GTA 6 Encyclopedia: enciclopedia independiente en español de Grand Theft Auto VI con personajes, mapa de Leonida, vehículos, armas, misiones, trucos y noticias, con cada dato etiquetado según su nivel de confirmación."><meta property="og:url" content="https://gta6encyclopedia.com/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://gta6encyclopedia.com/assets/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="GTA 6 Encyclopedia: guías, trucos, mapa y secretos de Leonida">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://gta6encyclopedia.com/assets/og-image.jpg">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&family=Yellowtail&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "GTA 6 Encyclopedia", "url": "https://gta6encyclopedia.com/", "inLanguage": "es"}</script>
@@ -120,6 +122,19 @@ nav a:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line)}
 .langsw{display:flex;gap:8px;justify-content:center;margin:2px 0 8px;flex:1 1 100%}
 .langsw a{font:600 13px Figtree,sans-serif;text-decoration:none;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:99px;padding:6px 14px;box-shadow:0 3px 0 var(--line)}
 .langsw a[aria-current=true]{background:var(--b);border-color:var(--b);color:var(--bg)}
+
+/* --- Ajustes de lectura y menú en celular --- */
+nav{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;gap:8px;padding:6px 2px 16px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:none;padding:8px 14px;font-size:14px;box-shadow:0 3px 0 var(--line)}
+@media (min-width:900px){nav{flex-wrap:wrap;overflow:visible;justify-content:center;padding:6px 0 10px;gap:10px}nav a{padding:10px 16px;font-size:15px;box-shadow:0 4px 0 var(--line),0 10px 18px rgba(42,20,72,.2)}}
+.tag{background:var(--card)}
+.tag.b-OF{color:#1d7a49;border-color:#1d7a49}.tag.b-VI{color:#255fa8;border-color:#255fa8}.tag.b-DE{color:#7a3fc4;border-color:#7a3fc4}.tag.b-CO{color:#8f5f00;border-color:#8f5f00}
+@media (prefers-color-scheme:dark){.tag.b-OF{color:#5fd49a;border-color:#5fd49a}.tag.b-VI{color:#7db5f2;border-color:#7db5f2}.tag.b-DE{color:#c4a0f5;border-color:#c4a0f5}.tag.b-CO{color:#ffc24d;border-color:#ffc24d}.tag.b-NC{color:#d6c4de;border-color:#d6c4de}}
+.intro p{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;max-width:68ch;margin:8px 0 0}
+.status{max-width:56ch;margin-left:auto;margin-right:auto}
+.count{flex-wrap:nowrap;gap:8px}
+.count div{min-width:0;flex:1 1 0;max-width:92px;padding:10px 6px}
 </style>
 </head>
 <body>
@@ -132,17 +147,19 @@ nav a:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line)}
 <main>
 <div class="hero herobg">
   <h1><img class="gtalogo" src="/assets/gta6-logo.png" alt="Grand Theft Auto VI">en español, paso a paso.</h1>
-  <p>Trucos probados, guía de misiones y secretos de Leonida. Todo escrito por jugadores, sin copiar de nadie.</p>
+  <p>Guías, trucos y secretos de Leonida. Cada dato lleva una etiqueta que indica qué tan confirmado está.</p>
   <div class="count" role="timer" aria-live="off" id="count"><div><b id="d">--</b><span>días</span></div><div><b id="h">--</b><span>horas</span></div><div><b id="m">--</b><span>minutos</span></div><div><b id="s">--</b><span>segundos</span></div></div>
-  <div class="status" id="status">Lanzamiento: 19 de noviembre de 2026, PS5 y Xbox Series X|S.</div>
+  <div class="status" id="status">Lanzamiento: 19 de noviembre de 2026, PS5 y Xbox Series X|S. La cuenta regresiva es aproximada: Rockstar no ha anunciado una hora única de desbloqueo mundial.</div>
 </div>
+<section class="intro"><h2>Sobre GTA 6 y esta enciclopedia</h2><p>GTA 6 (Grand Theft Auto VI) sale el 19 de noviembre de 2026 para PS5 y Xbox Series X|S. Está ambientado en el estado ficticio de Leonida, que incluye Vice City, y sus protagonistas son Jason Duval y Lucia Caminos. Esta enciclopedia independiente reúne personajes, mapa, vehículos, armas, misiones y trucos, y marca cada dato como Oficial, Visual, En demostraciones, Comunidad o Sin confirmar.</p></section>
 <section id="hub"><h2>Explora la enciclopedia</h2><p class="sub">Cada categoría tiene sus propias páginas.</p><div class="hubg"><a href="/guia-completa/"><b>Guía completa</b><span>Todo lo esencial para empezar y avanzar en GTA 6.</span></a><a href="/misiones/"><b>Misiones</b><span>Guía paso a paso, objetivos, recompensas y medallas.</span></a><a href="/vehiculos/"><b>Vehículos</b><span>Coches, motos, aviones, helicópteros, barcos y sus características.</span></a><a href="/armas/"><b>Armas</b><span>Pistolas, rifles, escopetas, armas especiales y ubicaciones.</span></a><a href="/mapa-de-leonida/"><b>Mapa de Leonida</b><span>Ubicaciones importantes, tiendas, negocios y secretos.</span></a><a href="/trucos/"><b>Trucos</b><span>Códigos separados para PS5 y Xbox, publicados solo cuando se verifican.</span></a><a href="/easter-eggs/"><b>Easter eggs</b><span>Referencias, secretos y detalles ocultos.</span></a><a href="/personajes/"><b>Personajes</b><span>Historia, características y relaciones.</span></a><a href="/ubicaciones/"><b>Ubicaciones</b><span>Ciudades, barrios y lugares de Leonida.</span></a><a href="/coleccionables/"><b>Coleccionables</b><span>Qué hay que recoger y dónde encontrarlo.</span></a><a href="/noticias/"><b>Noticias</b><span>Novedades, parches y actualizaciones.</span></a><a href="/logros-y-trofeos/"><b>Logros y trofeos</b><span>Cómo conseguir cada logro y trofeo.</span></a></div></section>
+<section id="pop"><h2>Lo más buscado</h2><p class="sub">Accesos directos a las páginas más consultadas.</p><div class="hubg"><a href="/trucos/"><b>Trucos</b><span>Códigos separados para PS5 y Xbox, publicados solo cuando se verifican.</span></a><a href="/mapa-de-leonida/"><b>Mapa de Leonida</b><span>Ubicaciones importantes, tiendas, negocios y secretos.</span></a><a href="/misiones/"><b>Misiones</b><span>Guía paso a paso, objetivos, recompensas y medallas.</span></a><a href="/personajes/protagonistas/"><b>Protagonistas</b><span>Personajes</span></a><a href="/vehiculos/coches/"><b>Coches</b><span>Vehículos</span></a><a href="/armas/pistolas/"><b>Pistolas</b><span>Armas</span></a></div></section>
 </main>
 <footer class="fbg">GTA 6 Encyclopedia es un sitio de fans, independiente y sin afiliación con Rockstar Games ni Take-Two Interactive. Grand Theft Auto es marca de sus respectivos dueños.</footer>
 </div>
 <script>
 const T=new Date("2026-11-19T00:00:00"),$=id=>document.getElementById(id);
-function tick(){const ms=T-new Date();if(ms<=0){$("count").hidden=true;$("status").textContent="GTA 6 ya está disponible. Empieza a explorar Leonida.";return}
+function tick(){const ms=T-new Date();if(ms<=0){$("count").hidden=true;$("status").textContent="Llegó la fecha de lanzamiento de GTA 6 (19 de noviembre de 2026). Empieza a explorar Leonida.";return}
 const s=Math.floor(ms/1000);$("d").textContent=Math.floor(s/86400);$("h").textContent=String(Math.floor(s%86400/3600)).padStart(2,"0");$("m").textContent=String(Math.floor(s%3600/60)).padStart(2,"0");$("s").textContent=String(s%60).padStart(2,"0")}
 tick();setInterval(tick,1000);
 </script>

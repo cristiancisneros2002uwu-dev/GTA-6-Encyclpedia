@@ -12,7 +12,9 @@
 <link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/">
 <meta property="og:type" content="website"><meta property="og:site_name" content="GTA 6 Encyclopedia">
 <meta property="og:title" content="GTA 6 Encyclopedia: guides, cheats, missions, map and more"><meta property="og:description" content="GTA 6 Encyclopedia: an independent Grand Theft Auto VI database with characters, the Leonida map, vehicles, weapons, missions, cheats and news, with every fact labeled by how well it is confirmed."><meta property="og:url" content="https://gta6encyclopedia.com/en/"><meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://gta6encyclopedia.com/assets/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="GTA 6 Encyclopedia: guides, cheats, map and secrets of Leonida">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://gta6encyclopedia.com/assets/og-image.jpg">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&family=Yellowtail&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "GTA 6 Encyclopedia", "url": "https://gta6encyclopedia.com/en/", "inLanguage": "en"}</script>
@@ -120,6 +122,19 @@ nav a:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line)}
 .langsw{display:flex;gap:8px;justify-content:center;margin:2px 0 8px;flex:1 1 100%}
 .langsw a{font:600 13px Figtree,sans-serif;text-decoration:none;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:99px;padding:6px 14px;box-shadow:0 3px 0 var(--line)}
 .langsw a[aria-current=true]{background:var(--b);border-color:var(--b);color:var(--bg)}
+
+/* --- Ajustes de lectura y menú en celular --- */
+nav{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;gap:8px;padding:6px 2px 16px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:none;padding:8px 14px;font-size:14px;box-shadow:0 3px 0 var(--line)}
+@media (min-width:900px){nav{flex-wrap:wrap;overflow:visible;justify-content:center;padding:6px 0 10px;gap:10px}nav a{padding:10px 16px;font-size:15px;box-shadow:0 4px 0 var(--line),0 10px 18px rgba(42,20,72,.2)}}
+.tag{background:var(--card)}
+.tag.b-OF{color:#1d7a49;border-color:#1d7a49}.tag.b-VI{color:#255fa8;border-color:#255fa8}.tag.b-DE{color:#7a3fc4;border-color:#7a3fc4}.tag.b-CO{color:#8f5f00;border-color:#8f5f00}
+@media (prefers-color-scheme:dark){.tag.b-OF{color:#5fd49a;border-color:#5fd49a}.tag.b-VI{color:#7db5f2;border-color:#7db5f2}.tag.b-DE{color:#c4a0f5;border-color:#c4a0f5}.tag.b-CO{color:#ffc24d;border-color:#ffc24d}.tag.b-NC{color:#d6c4de;border-color:#d6c4de}}
+.intro p{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;max-width:68ch;margin:8px 0 0}
+.status{max-width:56ch;margin-left:auto;margin-right:auto}
+.count{flex-wrap:nowrap;gap:8px}
+.count div{min-width:0;flex:1 1 0;max-width:92px;padding:10px 6px}
 </style>
 </head>
 <body>
@@ -132,17 +147,19 @@ nav a:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line)}
 <main>
 <div class="hero herobg">
   <h1><img class="gtalogo" src="/assets/gta6-logo.png" alt="Grand Theft Auto VI">your step-by-step guide.</h1>
-  <p>Verified cheats, mission guides and secrets of Leonida. Every fact is labeled so you know what is confirmed and what is not.</p>
+  <p>Guides, cheats and secrets of Leonida. Every fact carries a label that tells you how well it is confirmed.</p>
   <div class="count" role="timer" aria-live="off" id="count"><div><b id="d">--</b><span>days</span></div><div><b id="h">--</b><span>hours</span></div><div><b id="m">--</b><span>minutes</span></div><div><b id="s">--</b><span>seconds</span></div></div>
-  <div class="status" id="status">Release: November 19, 2026, PS5 and Xbox Series X|S.</div>
+  <div class="status" id="status">Release: November 19, 2026, PS5 and Xbox Series X|S. The countdown is approximate: Rockstar has not announced a single worldwide unlock time.</div>
 </div>
+<section class="intro"><h2>About GTA 6 and this encyclopedia</h2><p>GTA 6 (Grand Theft Auto VI) launches on November 19, 2026 for PS5 and Xbox Series X|S. It is set in the fictional state of Leonida, which includes Vice City, and its protagonists are Jason Duval and Lucia Caminos. This independent encyclopedia covers characters, the map, vehicles, weapons, missions and cheats, and labels every fact as Official, Visual, Seen in demos, Community or Unconfirmed.</p></section>
 <section id="hub"><h2>Explore the encyclopedia</h2><p class="sub">Every category has its own pages.</p><div class="hubg"><a href="/en/complete-guide/"><b>Complete guide</b><span>Everything you need to start and progress in GTA 6.</span></a><a href="/en/missions/"><b>Missions</b><span>Step-by-step guides, objectives, rewards and medals.</span></a><a href="/en/vehicles/"><b>Vehicles</b><span>Cars, motorcycles, planes, helicopters, boats and their features.</span></a><a href="/en/weapons/"><b>Weapons</b><span>Handguns, rifles, shotguns, special weapons and where to find them.</span></a><a href="/en/leonida-map/"><b>Leonida map</b><span>Key locations, shops, businesses and secrets.</span></a><a href="/en/cheats/"><b>Cheats</b><span>Codes for PS5 and Xbox, published only once verified.</span></a><a href="/en/easter-eggs/"><b>Easter eggs</b><span>References, secrets and hidden details.</span></a><a href="/en/characters/"><b>Characters</b><span>Story, traits and relationships.</span></a><a href="/en/locations/"><b>Locations</b><span>Cities, neighborhoods and landmarks of Leonida.</span></a><a href="/en/collectibles/"><b>Collectibles</b><span>What to collect and where to find it.</span></a><a href="/en/news/"><b>News</b><span>Updates, patches and announcements.</span></a><a href="/en/achievements-trophies/"><b>Achievements and trophies</b><span>How to earn every achievement and trophy.</span></a></div></section>
+<section id="pop"><h2>Most searched</h2><p class="sub">Shortcuts to the most visited pages.</p><div class="hubg"><a href="/en/cheats/"><b>Cheats</b><span>Codes for PS5 and Xbox, published only once verified.</span></a><a href="/en/leonida-map/"><b>Leonida map</b><span>Key locations, shops, businesses and secrets.</span></a><a href="/en/missions/"><b>Missions</b><span>Step-by-step guides, objectives, rewards and medals.</span></a><a href="/en/characters/protagonists/"><b>Protagonists</b><span>Characters</span></a><a href="/en/vehicles/cars/"><b>Cars</b><span>Vehicles</span></a><a href="/en/weapons/handguns/"><b>Handguns</b><span>Weapons</span></a></div></section>
 </main>
 <footer class="fbg">GTA 6 Encyclopedia is an independent fan site, not affiliated with Rockstar Games or Take-Two Interactive. Grand Theft Auto is a trademark of its respective owners.</footer>
 </div>
 <script>
 const T=new Date("2026-11-19T00:00:00"),$=id=>document.getElementById(id);
-function tick(){const ms=T-new Date();if(ms<=0){$("count").hidden=true;$("status").textContent="GTA 6 is out now. Start exploring Leonida.";return}
+function tick(){const ms=T-new Date();if(ms<=0){$("count").hidden=true;$("status").textContent="GTA 6 release date (November 19, 2026) has arrived. Start exploring Leonida.";return}
 const s=Math.floor(ms/1000);$("d").textContent=Math.floor(s/86400);$("h").textContent=String(Math.floor(s%86400/3600)).padStart(2,"0");$("m").textContent=String(Math.floor(s%3600/60)).padStart(2,"0");$("s").textContent=String(s%60).padStart(2,"0")}
 tick();setInterval(tick,1000);
 </script>
