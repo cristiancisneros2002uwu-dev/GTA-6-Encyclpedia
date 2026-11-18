@@ -10,3 +10,10 @@
 - No se generaron ni añadieron imágenes nuevas. Los recursos visuales preexistentes no se modificaron; verificar sus licencias/procedencia antes de monetizar.
 
 Este paquete no incluye autorización de marca, derechos de autor, asesoría legal ni aprobación de una red publicitaria.
+
+- Se añadió un mapa interno de las secciones y categorías ES/EN ya existentes, vinculado a las plantillas de cada tipo de contenido.
+- Se añadieron diez plantillas editoriales Markdown (misiones, vehículos, armas, personajes, trucos, coleccionables, easter eggs, ubicaciones, noticias y logros).
+- Se añadieron cuerpos HTML reutilizables para artículos en español e inglés, usando las clases visuales existentes.
+- Se amplió cada JSON de captura con un bloque `publication` para slug, idioma, categoría, SEO, canonical, traducción, relacionados e imagen; los campos quedan vacíos y `publish_ready` en `false`.
+- Se añadió una guía de publicación manual para esta web estática, incluyendo categoría, buscador, sitemap y comprobaciones previas.
+- No se modificaron las páginas públicas, el diseño, la navegación, la cuenta regresiva, los avisos, las imágenes ni las URLs existentes.

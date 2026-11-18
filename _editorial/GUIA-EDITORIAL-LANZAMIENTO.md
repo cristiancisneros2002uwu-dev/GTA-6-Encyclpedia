@@ -50,3 +50,10 @@ Convertir la web en una enciclopedia útil basada en pruebas del juego, no en un
 
 ## Archivos JSON
 Cada archivo `*.json` define campos para un tipo de ficha. Los valores `null`, listas vacías y cadenas vacías significan “pendiente de investigar”; nunca deben convertirse en afirmaciones publicadas.
+
+
+## Preparación de publicación manual
+- Consultar `MAPA-SECCIONES-Y-CATEGORIAS.md` para elegir una ruta existente y la plantilla adecuada.
+- Seguir `GUIA-PUBLICAR-MANUALMENTE.md` para crear la página estática, enlazarla desde su categoría, actualizar el buscador y revisar el sitemap.
+- Los archivos `plantillas-publicacion/` incluyen cuerpos HTML de ejemplo en ES/EN y fichas Markdown por tipo de contenido.
+- Completar el objeto `publication` de cada JSON al preparar una página. `publish_ready` debe seguir en `false` hasta revisar todos los datos y la página pública.

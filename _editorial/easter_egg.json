@@ -12,5 +12,19 @@
   "evidence_notes": "",
   "primary_sources": [],
   "editor": "",
-  "last_verified": null
+  "last_verified": null,
+  "publication": {
+    "slug": "",
+    "language": "es",
+    "category_path": "",
+    "page_title": "",
+    "meta_description": "",
+    "short_summary": "",
+    "canonical_url": "",
+    "english_equivalent_url": "",
+    "related_urls": [],
+    "featured_image_path": "",
+    "featured_image_alt": "",
+    "publish_ready": false
+  }
 }
