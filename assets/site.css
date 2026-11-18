@@ -1,0 +1,149 @@
+/* GTA 6 Encyclopedia — hoja de estilos única */
+:root{
+  --bg:#F7EEF6;--ink:#2A1448;--mute:#65507A;--card:#FFFFFF;--card2:#FBF6FB;--line:#E2D0E6;
+  --a:#D93A6A;--a-ink:#FFFFFF;--b:#7A3FBF;--veil:rgba(247,238,246,.55);
+  --shadow:0 1px 2px rgba(42,20,72,.08),0 8px 24px rgba(42,20,72,.08);
+  --r:14px;color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1A1030;--ink:#FFF1EA;--mute:#C3AFCB;--card:#271A47;--card2:#2F2055;--line:#43326F;
+  --a:#FF6B8B;--a-ink:#2A0A18;--b:#FFB36B;--veil:rgba(26,16,48,.62);
+  --shadow:0 1px 2px rgba(0,0,0,.25),0 10px 28px rgba(0,0,0,.28);color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1A1030;--ink:#FFF1EA;--mute:#C3AFCB;--card:#271A47;--card2:#2F2055;--line:#43326F;
+  --a:#FF6B8B;--a-ink:#2A0A18;--b:#FFB36B;--veil:rgba(26,16,48,.62);
+  --shadow:0 1px 2px rgba(0,0,0,.25),0 10px 28px rgba(0,0,0,.28);color-scheme:dark}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:16px;-webkit-text-size-adjust:100%}
+body{margin:0;background:linear-gradient(var(--veil),var(--veil)),url(/assets/bg.jpg) center top/100% auto repeat-y var(--bg);
+  color:var(--ink);font:400 16px/1.6 Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,system-ui,sans-serif;margin:0;line-height:1.12;letter-spacing:-.01em}
+a{color:inherit}
+img{max-width:100%}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px calc(40px + env(safe-area-inset-bottom,0px));padding-top:env(safe-area-inset-top,0px)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--a);color:var(--a-ink);padding:8px 14px;border-radius:8px;z-index:100;font-weight:600}
+.skip:focus{left:12px}
+:focus-visible{outline:2px solid var(--b);outline-offset:2px}
+
+/* ---------- Cabecera ---------- */
+.site-header{padding:16px 0 6px}
+.hdr{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px}
+.logo{display:inline-block;text-decoration:none;white-space:nowrap;
+  font:400 clamp(24px,6.6vw,38px)/1.15 Yellowtail,"Brush Script MT",cursive;padding:.05em .3em .05em .05em;
+  background:linear-gradient(180deg,#FFE08A 0%,#FF7AA8 52%,#C259FF 100%);-webkit-background-clip:text;background-clip:text;
+  color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 2px 0 rgba(58,21,96,.55)) drop-shadow(0 0 10px rgba(255,90,150,.35))}
+.langsw{display:inline-flex;padding:3px;border-radius:99px;background:var(--card);border:1px solid var(--line);flex:none}
+.langsw a{font:600 13px/1 Figtree,sans-serif;text-decoration:none;color:var(--mute);padding:8px 14px;border-radius:99px;letter-spacing:.04em}
+.langsw a[aria-current=true]{background:var(--b);color:var(--bg)}
+:root:not([data-theme="dark"]) .langsw a[aria-current=true]{color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .langsw a[aria-current=true]{color:#2A1448}}
+
+/* Buscador */
+.searchbox{position:relative;margin:14px 0 12px}
+.searchbox .field{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:0 14px;height:50px;box-shadow:var(--shadow);transition:border-color .15s,box-shadow .15s}
+.searchbox .field:focus-within{border-color:var(--b);box-shadow:0 0 0 3px color-mix(in srgb,var(--b) 28%,transparent)}
+.searchbox svg{width:20px;height:20px;flex:none;color:var(--mute)}
+.searchbox input{flex:1;min-width:0;height:100%;border:0;background:transparent;color:var(--ink);font:500 16px Figtree,sans-serif;outline:none}
+.searchbox input::placeholder{color:var(--mute);opacity:.85}
+.searchbox input::-webkit-search-cancel-button{display:none}
+.searchbox kbd{font:600 12px Figtree,sans-serif;color:var(--mute);border:1px solid var(--line);border-radius:6px;padding:2px 7px;display:none}
+@media (hover:hover) and (min-width:700px){.searchbox kbd{display:inline-block}}
+.results{position:absolute;left:0;right:0;top:calc(100% + 8px);z-index:50;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 50px rgba(0,0,0,.35);max-height:min(66vh,520px);overflow:auto;padding:6px}
+.results[hidden]{display:none}
+.results .res{display:block;text-decoration:none;padding:10px 12px;border-radius:10px}
+.results .res:hover,.results .res[aria-selected=true]{background:var(--card2)}
+.results .res[aria-selected=true]{outline:2px solid var(--b);outline-offset:-2px}
+.res .r1{display:flex;gap:8px;align-items:center;justify-content:space-between}
+.res b{font:700 16px/1.25 "Bricolage Grotesque",Figtree,sans-serif}
+.res .rc{display:block;font-size:12px;color:var(--mute);margin-top:2px}
+.res .rs{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;color:var(--mute);margin-top:3px}
+.res mark{background:color-mix(in srgb,var(--a) 28%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+.results .none{padding:18px 14px;color:var(--mute);text-align:center;font-size:15px}
+.results .hint{padding:8px 12px 4px;font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+
+/* Menú: todas las secciones visibles, sin deslizar */
+nav.main{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:4px 0 14px}
+nav.main a{display:flex;align-items:center;justify-content:center;text-align:center;min-height:46px;padding:8px 6px;border-radius:10px;
+  background:var(--card);border:1px solid var(--line);text-decoration:none;font:600 13px/1.2 Figtree,sans-serif;transition:border-color .15s,background .15s,transform .15s}
+nav.main a:hover{border-color:var(--b);transform:translateY(-1px)}
+nav.main a[aria-current]{background:var(--a);border-color:var(--a);color:var(--a-ink)}
+@media (min-width:640px){
+  nav.main{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+  nav.main a{min-height:0;padding:9px 16px;font-size:14px;border-radius:99px}
+}
+
+/* ---------- Página ---------- */
+main{padding-top:6px;min-height:50vh}
+.crumb{font-size:14px;color:var(--mute);margin:14px 0 0}
+.crumb a{color:var(--b);text-decoration:none;font-weight:600}.crumb a:hover{text-decoration:underline}
+.pgh{padding:10px 0 4px}
+.pgh h1{font-size:clamp(30px,7.2vw,48px);font-weight:800;text-wrap:balance}
+.sub{color:var(--mute);margin:8px 0 0;max-width:62ch;font-size:17px}
+h2{font-size:clamp(24px,5.4vw,34px);font-weight:800;margin-bottom:6px}
+h2.more{font-size:22px;margin:38px 0 12px}
+section{padding:30px 0 4px}
+
+/* Leyenda de etiquetas (arriba de todo) */
+.leg{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:18px 0 6px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.leg-t{font:700 12px/1 Figtree,sans-serif;text-transform:uppercase;letter-spacing:.09em;color:var(--mute);margin-right:4px;flex:1 1 100%}
+.leg-a{font-size:13px;font-weight:600;color:var(--b);margin-left:auto;text-decoration:none;white-space:nowrap}
+.leg-a:hover{text-decoration:underline}
+@media (min-width:700px){.leg-t{flex:none}}
+
+.tag{--tc:var(--mute);display:inline-flex;align-items:center;font:600 12px/1 Figtree,sans-serif;padding:6px 11px;border-radius:99px;white-space:nowrap;
+  color:var(--tc);border:1px solid color-mix(in srgb,var(--tc) 55%,transparent);background:color-mix(in srgb,var(--tc) 13%,transparent)}
+.tag.b-OF{--tc:#1d7a49}.tag.b-VI{--tc:#255fa8}.tag.b-DE{--tc:#7a3fc4}.tag.b-CO{--tc:#8f5f00}.tag.b-NC{--tc:#5d4a70}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag.b-OF{--tc:#5fd49a}:root:not([data-theme="light"]) .tag.b-VI{--tc:#7db5f2}:root:not([data-theme="light"]) .tag.b-DE{--tc:#c4a0f5}:root:not([data-theme="light"]) .tag.b-CO{--tc:#ffc24d}:root:not([data-theme="light"]) .tag.b-NC{--tc:#d6c4de}}
+:root[data-theme="dark"] .tag.b-OF{--tc:#5fd49a}:root[data-theme="dark"] .tag.b-VI{--tc:#7db5f2}:root[data-theme="dark"] .tag.b-DE{--tc:#c4a0f5}:root[data-theme="dark"] .tag.b-CO{--tc:#ffc24d}:root[data-theme="dark"] .tag.b-NC{--tc:#d6c4de}
+
+/* Tarjetas de navegación */
+.hubg,.subg{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));margin:18px 0}
+.subg{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.hubg a,.subg a{position:relative;display:flex;flex-direction:column;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 44px 16px 18px;text-decoration:none;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.hubg a::after,.subg a::after{content:"›";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:26px;line-height:1;color:var(--mute);transition:transform .15s,color .15s}
+.hubg a:hover,.subg a:hover{transform:translateY(-2px);border-color:var(--b)}
+.hubg a:hover::after,.subg a:hover::after{color:var(--a);transform:translate(3px,-50%)}
+.hubg b,.subg b{font:700 18px/1.2 "Bricolage Grotesque",Figtree,sans-serif}
+.hubg span,.subg span{color:var(--mute);font-size:14px;line-height:1.45}
+.subg span.go{font-weight:600;color:var(--b);font-size:13px}
+.subg.plat{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px;margin:22px 0 8px}
+.subg.plat a{padding:26px 54px 26px 24px;background:linear-gradient(135deg,var(--card),var(--card2))}
+.subg.plat em{font:700 12px/1 Figtree,sans-serif;font-style:normal;text-transform:uppercase;letter-spacing:.1em;color:var(--a)}
+.subg.plat b{font-size:clamp(26px,6vw,32px);margin:4px 0 2px}
+
+/* Listas de datos */
+.list{display:grid;gap:12px;margin-top:14px}
+.item{display:flex;flex-direction:column-reverse;align-items:flex-start;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow);scroll-margin-top:16px}
+.item h3{font-size:19px;font-weight:700}
+.item p{margin:6px 0 0;color:var(--mute);font-size:15px;max-width:68ch}
+.item:target{border-color:var(--a);box-shadow:0 0 0 3px color-mix(in srgb,var(--a) 30%,transparent)}
+@media (min-width:700px){.item{flex-direction:row;align-items:flex-start;justify-content:space-between;gap:18px}.item .tag{margin-top:2px}}
+
+/* ---------- Inicio ---------- */
+.hero{text-align:center;padding:26px 0 18px}
+.hero h1{font:800 clamp(22px,6vw,34px)/1.15 "Bricolage Grotesque",sans-serif;letter-spacing:-.01em;color:var(--ink)}
+.hero .gtalogo{display:block;width:min(52vw,250px);height:auto;margin:0 auto 14px;filter:drop-shadow(0 8px 20px rgba(26,10,48,.5))}
+.hero p{max-width:50ch;margin:14px auto 22px;color:var(--ink);opacity:.9;font-size:18px}
+.count{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:520px;margin:0 auto}
+.count div{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 4px 12px;text-align:center;box-shadow:var(--shadow);border-top:3px solid var(--a)}
+.count b{display:block;font:800 clamp(28px,8vw,44px)/1 "Bricolage Grotesque",sans-serif;font-variant-numeric:tabular-nums}
+.count span{display:block;margin-top:6px;font:600 11px/1 Figtree,sans-serif;text-transform:uppercase;letter-spacing:.09em;color:var(--mute)}
+.status{margin:14px auto 0;max-width:56ch;color:var(--ink);opacity:.8;font-size:14px}
+.intro p{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;max-width:72ch;margin:10px 0 0;box-shadow:var(--shadow)}
+.sub+.hubg{margin-top:16px}
+
+/* ---------- Pie de página ---------- */
+.site-footer{margin-top:52px;border-radius:20px;color:#F2E8F6;background:rgba(22,13,42,.82);border:1px solid rgba(255,255,255,.09);padding:30px 22px 22px;box-shadow:0 18px 50px rgba(0,0,0,.28);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.foot-top{display:grid;gap:26px}
+.foot-brand .logo{font-size:34px}
+.foot-brand p{margin:8px 0 0;color:#CDBBD6;font-size:14px;max-width:44ch}
+.foot-links h2{font:700 12px/1 Figtree,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:#CDBBD6;margin:0 0 12px}
+.foot-links ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:8px 18px}
+.foot-links a{color:#F2E8F6;text-decoration:none;font-size:14px;font-weight:500}
+.foot-links a:hover{text-decoration:underline;color:#FFB36B}
+.foot-legal{margin-top:26px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);display:grid;gap:8px;font-size:13px;color:#BFA9CB;line-height:1.55}
+.foot-legal p{margin:0}
+@media (min-width:760px){.foot-top{grid-template-columns:1.1fr 1.6fr;gap:44px}.foot-links ul{grid-template-columns:repeat(3,1fr)}.site-footer{padding:36px 34px 26px}}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
