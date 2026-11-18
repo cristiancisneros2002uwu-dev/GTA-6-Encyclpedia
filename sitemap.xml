@@ -343,4 +343,44 @@
 
   <url><loc>https://gta6encyclopedia.com/aviso-legal/</loc><lastmod>2026-11-18</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/aviso-legal/"/><xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/legal-notice/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/aviso-legal/"/></url>
   <url><loc>https://gta6encyclopedia.com/en/legal-notice/</loc><lastmod>2026-11-18</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/aviso-legal/"/><xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/legal-notice/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/aviso-legal/"/></url>
+  <url><loc>https://gta6encyclopedia.com/guia-completa/controles/</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/guia-completa/controles/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/complete-guide/controls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/guia-completa/controles/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/en/complete-guide/controls/</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/guia-completa/controles/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/complete-guide/controls/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/guia-completa/controles/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/trucos/ps5/</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/trucos/ps5/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/cheats/ps5/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/trucos/ps5/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/en/cheats/ps5/</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/trucos/ps5/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/cheats/ps5/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/trucos/ps5/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/trucos/xbox/</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/trucos/xbox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/cheats/xbox/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/trucos/xbox/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/en/cheats/xbox/</loc><lastmod>2026-11-18</lastmod><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/trucos/xbox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/cheats/xbox/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/trucos/xbox/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/misiones/historia/</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/misiones/historia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/missions/story-missions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/misiones/historia/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/en/missions/story-missions/</loc><lastmod>2026-11-18</lastmod><priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/misiones/historia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/missions/story-missions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/misiones/historia/"/>
+  </url>
 </urlset>
