@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /_editorial/
 
 Sitemap: https://gta6encyclopedia.com/sitemap.xml

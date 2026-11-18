@@ -1,0 +1,21 @@
+{
+  "record_type": "mission",
+  "verification_status": "pending",
+  "platform": "",
+  "game_version": "",
+  "mission_name": null,
+  "mission_category": null,
+  "starting_location": null,
+  "unlock_requirements": [],
+  "main_objectives": [],
+  "optional_objectives": [],
+  "medal_conditions": [],
+  "rewards": [],
+  "missable": null,
+  "spoiler_level": "major",
+  "tested_at": null,
+  "evidence_notes": "",
+  "primary_sources": [],
+  "editor": "",
+  "last_verified": null
+}

@@ -1,0 +1,19 @@
+{
+  "record_type": "weapon",
+  "verification_status": "pending",
+  "platform": "",
+  "game_version": "",
+  "in_game_name": null,
+  "weapon_class": null,
+  "ammo_type": null,
+  "acquisition_method": null,
+  "location": null,
+  "attachments": [],
+  "tested_stats": {},
+  "test_method": null,
+  "tested_at": null,
+  "evidence_notes": "",
+  "primary_sources": [],
+  "editor": "",
+  "last_verified": null
+}
