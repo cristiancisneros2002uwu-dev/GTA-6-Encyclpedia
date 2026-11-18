@@ -310,4 +310,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/achievements-trophies/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/logros-y-trofeos/"/>
   </url>
+  <url><loc>https://gta6encyclopedia.com/acerca-de/</loc><lastmod>2026-11-17</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/acerca-de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/acerca-de/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/en/about/</loc><lastmod>2026-11-17</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/acerca-de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/acerca-de/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/contacto/</loc><lastmod>2026-11-17</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/contacto/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/en/contact/</loc><lastmod>2026-11-17</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/contacto/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/privacidad/</loc><lastmod>2026-11-17</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/privacidad/"/>
+  </url>
+  <url><loc>https://gta6encyclopedia.com/en/privacy/</loc><lastmod>2026-11-17</lastmod><priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gta6encyclopedia.com/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gta6encyclopedia.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gta6encyclopedia.com/privacidad/"/>
+  </url>
 </urlset>

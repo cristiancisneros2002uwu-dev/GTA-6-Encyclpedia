@@ -133,6 +133,13 @@ section{padding:30px 0 4px}
 .intro p{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;max-width:72ch;margin:10px 0 0;box-shadow:var(--shadow)}
 .sub+.hubg{margin-top:16px}
 
+/* Páginas de texto (privacidad, contacto, acerca de) */
+.prose{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px 22px 14px;margin-top:18px;max-width:78ch;box-shadow:var(--shadow)}
+.prose h2{font-size:21px;margin:26px 0 8px}.prose h2:first-child{margin-top:0}
+.prose p,.prose li{margin:0 0 12px;font-size:16px;line-height:1.65}
+.prose ul{padding-left:20px;margin:0 0 12px}
+.prose a{color:var(--b);font-weight:600;word-break:break-word}
+
 /* ---------- Pie de página ---------- */
 .site-footer{margin-top:52px;border-radius:20px;color:#F2E8F6;background:rgba(22,13,42,.82);border:1px solid rgba(255,255,255,.09);padding:30px 22px 22px;box-shadow:0 18px 50px rgba(0,0,0,.28);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 .foot-top{display:grid;gap:26px}
