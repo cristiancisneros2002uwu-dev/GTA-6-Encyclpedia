@@ -19,7 +19,7 @@
   function load() {
     if (index) return Promise.resolve(index);
     if (loading) return loading;
-    loading = fetch("/assets/search-index.json?v=3")
+    loading = fetch("/assets/search-index.json?v=4")
       .then(function (r) { return r.json(); })
       .then(function (d) {
         index = d.filter(function (e) { return e.l === lang; }).map(function (e) {
