@@ -246,3 +246,7 @@ a.howto:hover{background:none;color:var(--b);text-decoration:underline}
 .foot-legal .credit{margin-top:4px}
 .foot-legal .credit a{display:inline-block;color:#FFD23F;font:700 15px/1 "Bricolage Grotesque",Figtree,sans-serif;text-decoration:none;padding:8px 14px 9px;border-bottom:3px solid #FFD23F;border-radius:6px 6px 0 0;background:rgba(255,210,63,.08);transition:background .15s,transform .15s}
 .foot-legal .credit a:hover{background:rgba(255,210,63,.2);transform:translateY(-1px)}
+.clk{cursor:pointer}
+.item.clk,.mlist li.clk{transition:transform .15s,border-color .15s}
+.item.clk:hover,.mlist li.clk:hover{border-color:var(--b)}
+tbody tr.clk:hover td{background:color-mix(in srgb,var(--b) 10%,transparent)}

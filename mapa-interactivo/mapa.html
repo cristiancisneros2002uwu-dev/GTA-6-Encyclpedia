@@ -207,5 +207,9 @@ if (qp) {
   if (m) { on.add(m._p.c); render(); setTimeout(() => cluster.zoomToShowLayer(m, () => m.openPopup()), 300); }
 }
 </script>
+<script>(function(){var S=".item,.mlist li,tbody tr";function t(b){var h=b.querySelector("h3 a[href]");if(h)return h;var a=b.querySelectorAll("a[href]");if(!a.length)return null;var u={};for(var i=0;i<a.length;i++)u[a[i].href]=1;if(Object.keys(u).length==1)return a[0];return b.querySelector("a.howto[href]")}
+function mark(){var l=document.querySelectorAll(S);for(var i=0;i<l.length;i++){if(t(l[i]))l[i].classList.add("clk")}}
+document.addEventListener("click",function(e){if(e.defaultPrevented||e.button||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;if(e.target.closest("a,button,input,select,textarea,label,summary"))return;var b=e.target.closest(S);if(!b)return;var s=window.getSelection&&String(window.getSelection());if(s)return;var a=t(b);if(!a)return;if(a.target==="_blank"){window.open(a.href,"_blank","noopener")}else{location.href=a.href}});
+if(document.readyState!=="loading")mark();else document.addEventListener("DOMContentLoaded",mark)})();</script>
 </body>
 </html>
