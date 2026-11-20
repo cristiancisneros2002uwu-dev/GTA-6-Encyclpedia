@@ -230,3 +230,12 @@ a.howto:hover{background:none;color:var(--b);text-decoration:underline}
 .mlist a.howto:hover{background:none;color:var(--b);text-decoration:underline}
 .item h2 a,.sec h2 a{color:inherit;text-decoration:none}
 .sec h2 a:hover{text-decoration:underline}
+
+/* ---------- Mapa interactivo ---------- */
+.mapbox{position:relative;margin:16px 0 0;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);background:#1d3c6b;height:min(78vh,720px)}
+.mapbox iframe,.heromap iframe{display:block;width:100%;height:100%;border:0}
+.mapcta{margin:12px 0 0;text-align:center}
+.heromap{width:100%;height:min(64vh,560px);margin:0 auto 18px;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);background:#1d3c6b}
+.heromap-cta{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:-6px 0 16px;font-size:14px}
+.heromap-cta a{color:var(--b);font-weight:700;text-decoration:none}
+@media (min-width:900px){.heromap{height:560px}}
