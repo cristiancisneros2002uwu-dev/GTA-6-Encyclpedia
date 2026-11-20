@@ -239,3 +239,7 @@ a.howto:hover{background:none;color:var(--b);text-decoration:underline}
 .heromap-cta{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:-6px 0 16px;font-size:14px}
 .heromap-cta a{color:var(--b);font-weight:700;text-decoration:none}
 @media (min-width:900px){.heromap{height:560px}}
+.item:has(>div>h3>a){position:relative;cursor:pointer;transition:transform .15s,border-color .15s}
+.item:has(>div>h3>a):hover{transform:translateY(-2px);border-color:var(--b)}
+.item>div>h3>a::after{content:"";position:absolute;inset:0;z-index:0}
+.item p a,.item .meta a{position:relative;z-index:1}
