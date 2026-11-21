@@ -1,0 +1,172 @@
+{
+  "_nota": "Llave = ruta de la página en inglés. 'en' va en esa página; 'es' va en su versión en español. title = <title>, description = meta description (lo que se ve en Google), intro = primer párrafo de la página. Ordenado por impresiones de las últimas 24 h.",
+  "/en/locations/establishments/police-stations/": {
+    "en": {
+      "title": "All 5 Police Station Locations in GTA 6 (Map)",
+      "description": "Where every police station is in GTA 6: Vice Beach, Tequesta, Ambrosia, Port Gellhorn and Waning Sands, with county and map link for each one.",
+      "intro": "There are 5 police stations in GTA 6: Vice Beach Police Department and Tequesta Police Station in Vice-Dale County, Ambrosia Police Department and Port Gellhorn Police Station in Kelly County, and Waning Sands Police Department in Leonard County."
+    },
+    "es": {
+      "title": "Las 5 comisarías de GTA 6: ubicaciones y mapa",
+      "description": "Dónde está cada comisaría de policía en GTA 6: Vice Beach, Tequesta, Ambrosia, Port Gellhorn y Waning Sands, con condado y enlace al mapa.",
+      "intro": "GTA 6 tiene 5 comisarías: Vice Beach Police Department y Tequesta Police Station en Vice-Dale County, Ambrosia Police Department y Port Gellhorn Police Station en Kelly County, y Waning Sands Police Department en Leonard County."
+    }
+  },
+  "/en/vehicles/67-transgressor/": {
+    "en": {
+      "title": "'67 Transgressor in GTA 6: How to Get It",
+      "description": "How to get the '67 Transgressor muscle car in GTA 6: an Ultimate Edition bonus unlocked through the Find Cars for Wyman quest. Counts for Whip It Good.",
+      "intro": "The '67 Transgressor is a muscle car you get as an Ultimate Edition bonus through the Find Cars for Wyman quest. It counts toward the Whip It Good trophy and the 200-model 100% goal."
+    },
+    "es": {
+      "title": "'67 Transgressor en GTA 6: cómo conseguirlo",
+      "description": "Cómo conseguir el muscle car '67 Transgressor en GTA 6: bonus de la Ultimate Edition que se obtiene con la misión Find Cars for Wyman.",
+      "intro": "El '67 Transgressor es un muscle car que viene como bonus de la Ultimate Edition y se consigue con la misión Find Cars for Wyman. Cuenta para el trofeo Whip It Good y para el 100% (200 modelos)."
+    }
+  },
+  "/en/locations/establishments/dealerships/": {
+    "en": {
+      "title": "GTA 6 Car Dealerships: Locations (Baller & Vapid)",
+      "description": "Where the car dealerships are in GTA 6: Baller and Vapid, both in Southside, Vice City. Smash out of a showroom for the Capital Offense trophy.",
+      "intro": "GTA 6 has 2 car dealerships, Baller and Vapid, both in Southside, Vice City (Vice-Dale County). Driving out through a showroom window unlocks the Capital Offense trophy."
+    },
+    "es": {
+      "title": "Concesionarios de autos en GTA 6: ubicaciones",
+      "description": "Dónde están los concesionarios en GTA 6: Baller y Vapid, ambos en Southside, Vice City. Rompe un escaparate y gana el trofeo Capital Offense.",
+      "intro": "GTA 6 tiene 2 concesionarios, Baller y Vapid, los dos en Southside, Vice City (Vice-Dale County). Salir rompiendo el escaparate desbloquea el trofeo Capital Offense."
+    }
+  },
+  "/en/locations/establishments/banks/": {
+    "en": {
+      "title": "Where Are the Banks in GTA 6? All Locations",
+      "description": "Every bank in GTA 6: 14 small banks and 8 large banks with a vault (Fleeca, Lombank, Shorefront, Hobbs Milford). Unlocks with Credit Check, Ch. 3.",
+      "intro": "GTA 6 has 14 small banks (cash drawer and safe) and 8 large banks with a vault, from Fleeca, Lombank, Shorefront and Hobbs Milford. Most are in Vice City and Vice Beach. They unlock with Credit Check in Chapter 3."
+    },
+    "es": {
+      "title": "¿Dónde están los bancos en GTA 6? Ubicaciones",
+      "description": "Todos los bancos de GTA 6: 14 pequeños y 8 grandes con bóveda (Fleeca, Lombank, Shorefront, Hobbs Milford). Se desbloquean con Credit Check, cap. 3.",
+      "intro": "GTA 6 tiene 14 bancos pequeños (caja y caja fuerte) y 8 grandes con bóveda, de Fleeca, Lombank, Shorefront y Hobbs Milford. La mayoría están en Vice City y Vice Beach. Se desbloquean con Credit Check en el capítulo 3."
+    }
+  },
+  "/en/collectible-cards/right-wing-americas-hero/": {
+    "en": {
+      "title": "Right Wing: America's Hero Cards in GTA 6 (Immigrantasma)",
+      "description": "All 36 Right Wing: America's Hero cards in GTA 6, including where to find Immigrantasma: the women's toilet under the bridge west of Abismo Key.",
+      "intro": "Right Wing: America's Hero is a set of 36 collectible cards. Immigrantasma is in the women's toilet under the bridge west of Abismo Key, Mariana County. Each color of a character counts as a separate card."
+    },
+    "es": {
+      "title": "Cartas Right Wing: America's Hero en GTA 6 (Immigrantasma)",
+      "description": "Las 36 cartas Right Wing: America's Hero de GTA 6 y dónde está Immigrantasma: en el baño de mujeres bajo el puente al oeste de Abismo Key.",
+      "intro": "Right Wing: America's Hero es una colección de 36 cartas. Immigrantasma está en el baño de mujeres bajo el puente al oeste de Abismo Key, Mariana County. Cada color de un personaje cuenta como carta distinta."
+    },
+    "ruta_es": "/cromos/right-wing-americas-hero/"
+  },
+  "/en/radio/vcrr/": {
+    "en": {
+      "title": "VCRR Song List: All 89 Songs | GTA 6 Radio",
+      "description": "Full VCRR tracklist in GTA 6: all 89 songs on the modern rap station, with Drake, Future, Cardi B and more.",
+      "intro": "VCRR is GTA 6's modern rap station, with 89 songs from artists like Drake, Future and Cardi B. Here is the full tracklist."
+    },
+    "es": {
+      "title": "Canciones de VCRR: las 89 canciones | Radio GTA 6",
+      "description": "Lista completa de VCRR en GTA 6: las 89 canciones de la estación de rap moderno, con Drake, Future, Cardi B y más.",
+      "intro": "VCRR es la estación de rap moderno de GTA 6, con 89 canciones de artistas como Drake, Future y Cardi B. Aquí está la lista completa."
+    }
+  },
+  "/en/locations/establishments/pawn-shops/": {
+    "en": {
+      "title": "All 19 Pawn Shop Locations in GTA 6",
+      "description": "Every pawn shop in GTA 6: 19 locations across Vice City, Port Gellhorn and the Keys. All count as Smash 'n' Grabs, some sell guns and buy cards.",
+      "intro": "There are 19 pawn shops in GTA 6, 13 of them in Vice-Dale County. All count as Smash 'n' Grabs, and some, like Pawn & Gun, also sell guns."
+    },
+    "es": {
+      "title": "Las 19 casas de empeño de GTA 6: ubicaciones",
+      "description": "Todas las casas de empeño de GTA 6: 19 ubicaciones en Vice City, Port Gellhorn y los Cayos. Cuentan como Smash 'n' Grab y algunas venden armas.",
+      "intro": "GTA 6 tiene 19 casas de empeño, 13 en Vice-Dale County. Todas cuentan como Smash 'n' Grab y algunas, como Pawn & Gun, también venden armas."
+    }
+  },
+  "/en/locations/establishments/fire-stations/": {
+    "en": {
+      "title": "All 4 Fire Station Locations in GTA 6",
+      "description": "Where the fire stations are in GTA 6: City of Vice Fire Rescue (Downtown), La Perle, Vice Dade and Key Lento, with map links.",
+      "intro": "GTA 6 has 4 fire stations: City of Vice Fire Rescue Station in Downtown, La Perle Fire Station, Vice Dade Fire Rescue Station, and Key Lento Fire Station in Mariana County."
+    },
+    "es": {
+      "title": "Las 4 estaciones de bomberos de GTA 6",
+      "description": "Dónde están las estaciones de bomberos en GTA 6: City of Vice Fire Rescue (Downtown), La Perle, Vice Dade y Key Lento, con enlace al mapa.",
+      "intro": "GTA 6 tiene 4 estaciones de bomberos: City of Vice Fire Rescue Station en Downtown, La Perle Fire Station, Vice Dade Fire Rescue Station y Key Lento Fire Station en Mariana County."
+    }
+  },
+  "/en/locations/establishments/salons/": {
+    "en": {
+      "title": "All 19 Barber Shops & Hair Salons in GTA 6",
+      "description": "Every barber shop and hair salon in GTA 6: 19 locations, from Crosstown Cutz and Onyx Salon in Vice City to Millport in Lummox County.",
+      "intro": "There are 19 barber shops and hair salons in GTA 6, 12 of them in Vice-Dale County, with others in Mariana, Kelly, Leonard and Lummox County."
+    },
+    "es": {
+      "title": "Las 19 peluquerías y barberías de GTA 6",
+      "description": "Todas las peluquerías y barberías de GTA 6: 19 ubicaciones, desde Crosstown Cutz y Onyx Salon en Vice City hasta Millport en Lummox County.",
+      "intro": "GTA 6 tiene 19 peluquerías y barberías, 12 en Vice-Dale County y el resto en Mariana, Kelly, Leonard y Lummox County."
+    }
+  },
+  "/en/locations/establishments/clothing-stores/": {
+    "en": {
+      "title": "All 77 Clothing Store Locations in GTA 6",
+      "description": "Every clothing store in GTA 6: 77 locations, including street, sportswear, formal, swimwear and thrift stores. Same brand, same clothes.",
+      "intro": "GTA 6 has 77 clothing stores: 17 casual and street, 11 sportswear, 10 formal, 24 souvenir and swimwear, and 5 thrift. Stores of the same brand sell the same clothes."
+    },
+    "es": {
+      "title": "Las 77 tiendas de ropa de GTA 6: ubicaciones",
+      "description": "Todas las tiendas de ropa de GTA 6: 77 ubicaciones de ropa urbana, deportiva, formal, de playa y de segunda mano. Misma marca, misma ropa.",
+      "intro": "GTA 6 tiene 77 tiendas de ropa: 17 casual y urbana, 11 deportivas, 10 formales, 24 de souvenirs y trajes de baño, y 5 de segunda mano. Las tiendas de la misma marca venden la misma ropa."
+    }
+  },
+  "/en/locations/establishments/gyms/": {
+    "en": {
+      "title": "All 9 Gym Locations in GTA 6",
+      "description": "Where the gyms are in GTA 6: 9 locations in Vice City and Vice Beach, including Dynamix Fitness and Zenith. Needed for the Gym Member challenge.",
+      "intro": "There are 9 gyms in GTA 6, all in Vice City and Vice Beach, such as Dynamix Fitness in Bayside and Zenith in Downtown. A membership counts for the Gym Member challenge and helps with the Personal Best trophy."
+    },
+    "es": {
+      "title": "Los 9 gimnasios de GTA 6: ubicaciones",
+      "description": "Dónde están los gimnasios en GTA 6: 9 ubicaciones en Vice City y Vice Beach, como Dynamix Fitness y Zenith. Sirven para el desafío Gym Member.",
+      "intro": "GTA 6 tiene 9 gimnasios, todos en Vice City y Vice Beach, como Dynamix Fitness en Bayside y Zenith en Downtown. La membresía cuenta para el desafío Gym Member y ayuda con el trofeo Personal Best."
+    }
+  },
+  "/en/radio/emotion-98-3/": {
+    "en": {
+      "title": "Emotion 98.3 Song List: All 35 Songs | GTA 6 Radio",
+      "description": "Full Emotion 98.3 tracklist in GTA 6: all 35 soft rock songs, with Phil Collins, The Cars, Cliff Richard and more.",
+      "intro": "Emotion 98.3 is GTA 6's soft rock station, with 35 songs from artists like Phil Collins, The Cars and Cliff Richard."
+    },
+    "es": {
+      "title": "Canciones de Emotion 98.3: las 35 | Radio GTA 6",
+      "description": "Lista completa de Emotion 98.3 en GTA 6: las 35 canciones de soft rock, con Phil Collins, The Cars, Cliff Richard y más.",
+      "intro": "Emotion 98.3 es la estación de soft rock de GTA 6, con 35 canciones de artistas como Phil Collins, The Cars y Cliff Richard."
+    }
+  },
+  "/en/radio/kaleidoscope-fm/": {
+    "en": {
+      "title": "Kaleidoscope FM Song List: All 19 Songs | GTA 6",
+      "description": "Full Kaleidoscope FM tracklist in GTA 6: all 19 songs on the global pop station, with Marianne Rosenberg, Rolf Bergström and more.",
+      "intro": "Kaleidoscope FM is GTA 6's global pop station, with 19 songs from artists like Marianne Rosenberg and Rolf Bergström."
+    },
+    "es": {
+      "title": "Canciones de Kaleidoscope FM: las 19 | GTA 6",
+      "description": "Lista completa de Kaleidoscope FM en GTA 6: las 19 canciones de la estación de pop global, con Marianne Rosenberg, Rolf Bergström y más.",
+      "intro": "Kaleidoscope FM es la estación de pop global de GTA 6, con 19 canciones de artistas como Marianne Rosenberg y Rolf Bergström."
+    }
+  },
+  "/en/locations/establishments/hospitals/": {
+    "en": {
+      "title": "All 3 Hospital Locations in GTA 6",
+      "description": "Where the hospitals are in GTA 6: Vice Beach Hospital (Ocean Beach), Rockridge Hospital and Southside Hospital, all in Vice-Dale County.",
+      "intro": "GTA 6 has 3 hospitals, all in Vice-Dale County: Vice Beach Hospital in Ocean Beach, Rockridge Hospital and Southside Hospital in Vice City."
+    },
+    "es": {
+      "title": "Los 3 hospitales de GTA 6: ubicaciones",
+      "description": "Dónde están los hospitales en GTA 6: Vice Beach Hospital (Ocean Beach), Rockridge Hospital y Southside Hospital, todos en Vice-Dale County.",
+      "intro": "GTA 6 tiene 3 hospitales, todos en Vice-Dale County: Vice Beach Hospital en Ocean Beach, y Rockridge Hospital y Southside Hospital en Vice City."
+    }
+  }
+}
